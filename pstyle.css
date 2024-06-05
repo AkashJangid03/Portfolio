@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+header, footer {
+    padding: 5px;}
+.navbar {
+    height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;}
+
+.left {
+    margin-left: -300px;
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    margin-right: -320px;
+    display: flex;
+}
+
+.profile {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    text-align:center;
+    margin-left: 10px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/*
+.border:hover {
+    border: 1.5px solid blue;
+    cursor: pointer;
+    font-size: 27px;
+}
+*/
+
+.border:hover {
+    cursor: pointer;
+    font-size: 30px;
+    color: #3006fe;
+    text-decoration: underline;
+}
+
+.body {
+    height: 500px;
+    padding: 50px;
+    background-image: linear-gradient(to bottom , blue, rgb(192, 226, 239));
+}
+
+.button {
+    background-color: #3006fe;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 29px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 4px 8px, 0 4px 20px ;
+}
+
+
+.hey {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 80px;
+    margin-top: 7px;
+}
+
+.line {
+    font-size: 70px;
+}
+
+.about {
+    height: 500px;
+    padding: 20px;
+}
+
+.about-content {
+    display: flex;
+}
+
+.know-me {
+    text-align: left;
+    width: 500px;
+    height: 250px;
+    font-size: 20px;
+    padding:15px;
+    margin: auto;
+}
+
+.skills {
+    width: 500px;
+    height: 250px;
+    padding: 15px;
+    margin: auto;
+}
+
+.button-skills {
+    font-size: 20px;
+    background-image: linear-gradient(to right, grey, whitesmoke);
+    padding: 10px;
+
+}
+
+.para {
+    text-align: center;
+    font: inherit;
+    font-size: 20px;
+}
+
+
+.Project {
+    padding: 20px;
+}
+
+.photo-para { 
+    padding: 5px;
+    margin-top: 7px;
+}
+
+.pro-div {
+    display: flex;
+}
+
+.pro-img {
+    height: 400px;
+    width: 600px;
+    padding: 3px;
+    margin: auto;
+}
+
+.pro-description {
+    height: 300px;
+    width: 500px;
+    padding: 5px;
+    margin: auto;
+}
+
+.form {
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sub-but {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.sub-but:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    padding: 15px;
+    margin-top: 15px;
+    background-image: linear-gradient(to top , rgb(38, 38, 249), rgb(231, 248, 255));
+}
+
+.div2 {
+    display: flex;
+
+}
+.name {
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    margin-right: auto;
+}
+.name-1 {
+    font-size: 20px;
+}
+.contact-foot {
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    margin-left: auto;
+}
+.logo {
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    border: 0.2px;
+    display: flex;
+}
+.logo img{
+    margin-left: 10px;
+}
